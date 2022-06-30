@@ -1,1 +1,1 @@
-TinDog Starting Files
+WOD template site
