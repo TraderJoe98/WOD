@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>WOD - Workout Of the Day</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Syncopate:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&family=Cinzel:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- CSS styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid top-container">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand " href="">WOD</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1 class="first-phrase">Become the best version of yourself. You Got This!</h1>
+          <button type="button" class="btn btn-outline-dark btn-lg join-button"><i class="fa-solid fa-person"></i></i> Join Us</button>
+          <button type="button" class="btn btn-outline-light btn-lg dwl-button"><i class="fa-solid fa-mobile-screen-button"></i> Download the App</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="fitness-img" src="images/fitness.jpeg" alt="fitness.image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid feature-container">
+
+      <div class="row">
+        <div class="col-lg-4 features-box">
+          <img class="feature-images" src="images/target.png" alt="target-img">
+          <h3>Ad Hoc Experience</h3>
+          <p>The WOD team will create <u><b>with</b></u> you the perfect workout program for your needs.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <img class="feature-images" src="images/experts.png" alt="experts-img">
+          <h3>Experts in the field</h3>
+          <p>You will be followed by fitness experts who will assist you whenever you need it.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <img class="feature-images" src="images/strong.png" alt="strong-img">
+          <h3>Guaranteed to work</h3>
+          <p>We assure you that with our programs you will reach your goals. You got this! </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div class="container-fluid testimonial-container">
+
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">"At the start I was skeptical about this, but after a couple of weeks I can say I am more than satisfied!"</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois (USA)</em>
+          </div>
+          <div class="carousel-item">
+            <h2>"Great and well-balanced training programs. I'm on cloud 9 right now, I got this! "</h2>
+            <img class="testimonial-image" src="images/man.png" alt="man-profile">
+            <em>John, Brighton (UK)</em>
+          </div>
+          <div class="carousel-item">
+            <h2>"I've tried many different workout programs, but I've seen the best results with the WOD programs"</h2>
+            <img class="testimonial-image" src="images/man2.png" alt="man-profile-2">
+            <em>Marco, Rome (Italy)</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>Personalized plans for your needs</h2>
+    <p>Simple and affordable Memberships for you to become the healthiest and fittest version of yourself </p>
+    <div class="row">
+      <div class="col-pricing col-lg-4 col-md-6">
+        <div class="card border-dark">
+          <div class="card-header border-dark" style="background-color: #CD7F32">
+            <h3>Bronze Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>15$ / mo</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark btn-warning">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-pricing col-lg-4 col-md-6">
+        <div class="card border-dark">
+          <div class="card-header border-dark" style="background-color: #C0C0C0">
+            <h3>Silver Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>30$ / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark btn-warning">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-pricing col-lg-4 col-md-12 col-sm-12">
+        <div class="card border-dark">
+          <div class="card-header border-dark " style="background-color: #FFD700">
+            <h3>Gold Membership</h3>
+          </div>
+          <div class="card-body">
+            <h2>50$ / mo</h2>
+            <p>Priority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark btn-warning">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-phrase">Stop postponing, Get healthy and in shape now.<br> You Got This!</h3>
+    <button type="button" class="btn btn-outline-dark btn-lg join-button"><i class="fa-solid fa-person"></i></i> Join Us</button>
+    <button type="button" class="btn btn-outline-light btn-lg dwl-button"><i class="fa-solid fa-mobile-screen-button"></i> Download the App</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p class= "icons"> <i class="fa-brands fa-twitter"></i>  <i class="fa-brands fa-facebook-f"></i>  <i class="fa-brands fa-instagram"></i>  <i class="fa-solid fa-envelope"></i></p>
+    <p>© Copyright WOD S.r.l.</p>
+
+  </footer>
+
+
+</body>
+
+</html>
